@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T06:31:58.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.1" etag="Pn0I5kS1JLgxJSJCHcZh" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T07:24:54.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="VTKi0rzTCRcPXMv9OaqN" version="24.7.1" type="github">
   <diagram name="Page-1" id="yEtbBm1C0fHclImPkZ5K">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-4" value="Kategori Buku" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-5" value="Id:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mqKOhfzr9WHVQaCr_ZHj-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-6" value="Nama:char" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mqKOhfzr9WHVQaCr_ZHj-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-7" value="Keterangan:char" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mqKOhfzr9WHVQaCr_ZHj-4">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-9" value="Tampilkan:0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-15" value="Buku" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="140" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-16" value="Id:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mqKOhfzr9WHVQaCr_ZHj-15">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-17" value="Nama:char" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mqKOhfzr9WHVQaCr_ZHj-15">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mqKOhfzr9WHVQaCr_ZHj-18" value="Keterangan:char" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mqKOhfzr9WHVQaCr_ZHj-15">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
